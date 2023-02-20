@@ -61,25 +61,35 @@ $ git commit -m "first commit"
 ```
 Le dépot Git ou repository est le dossier qui contient les données que l'on souhaite versionner. On y trouve un dossier cache `.git/`
 
+Commande qui permet de voir l'historique des commits
+
 ```
 git log 
 ```
-permet de voir l'historique des commits
+
+permet de changer de répertoire (si on laisse de base on revient juste dans le répertoire utilisateur)
 
 ```
 cd
 ```
-permet de changer de répertoire (si on laisse de base on revient juste dans le répertoire utilisateur)
 
-cd ```..``` pour revenir en arrière dans le répertoire
+Pour revenir en arrière dans le répertoire
 
-git remote -v ça sert a check c'est quoi la valeur de tes remotes 
+```
+cd ..
+```
+Permet de connaître la valeur de tes remotes 
+```
+git remote -v
+```
+Permet de supprimer la valeur de tes remotes 
+```
+git remote rm -v
+```
 
-git remote rm -v ==> ça suppr tout
+```cat ```c'est une commande qui permet d'afficher le contenue d'un fichier dans le terminal
 
-cat c'est une commande qui permet d'afficher le contenue d'un fichier dans le terminal
-
-"| clip" ça permet de copier le contenue d'un fichier
+```| clip``` ça permet de copier le contenue d'un fichier
 
 cat [file name] | clip 
 git clone <url_du_depot> (pour copier l'url d'un depot)
