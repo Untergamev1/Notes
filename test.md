@@ -2,7 +2,8 @@
 
 Ceci est une commande :
 ``` shell
-    mkdir test
+    mkdir 
+    test
 ```
 
 Ceci est du code : 
@@ -10,11 +11,11 @@ Ceci est du code :
 const test = 'Hello World';
 ```
 
-``` shell
+``` shel
     mkdir 'Programmation'
     cd 'Programmation'
     code .
-
+````
 La commande `git init` permet d'initialiser un dépot Git.
 Elle retourne :
 ```
@@ -29,7 +30,7 @@ Pour changer le nom de la branche on fait
 git branch -M main
 ```
 La commande `pwd` permet de voir le chemin d'accès de fichier sur le terminal
-```
+
 La commande `ls -la` permet de regarder les fichiers racine sur lequel est installé `ATTENTION` ne pas supprimer le dossier `git`
 
 ```shell
@@ -48,5 +49,15 @@ git rm --cached <file>...
 Quand on fait un ```.``` ça veut dire que tu prends tout
 
 ```
-Git Commit
+git commit
 ```
+Avant de sauvegarder les modifications, il faut ajouter les modifications que l'on souhaite sauvegarder avec la commande :
+```
+git add <nom de fichier> .
+```
+La sauvegarde s'effectue ensuite avec la commande :
+```
+$ git commit -m "first commit"
+```
+Le dépot Git ou repository est le dossier qui contient les données que l'on souhaite versionner. On y trouve un dossier cache `.git/`
+
