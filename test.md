@@ -81,3 +81,5 @@ cat c'est une commande qui permet d'afficher le contenue d'un fichier dans le te
 
 "| clip" ça permet de copier le contenue d'un fichier
 
+cat [file name] | clip 
+git clone <url_du_depot> (pour copier l'url d'un depot)
