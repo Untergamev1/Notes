@@ -29,7 +29,7 @@ Pour changer le nom de la branche on fait
 ```
 git branch -M main
 ```
-La commande `pwd` permet de voir le chemin d'accès de fichier sur le terminal
+La commande `pwd` permet de voir le chemin obsolue d'accès de fichier sur le terminal
 
 La commande `ls -la` permet de regarder les fichiers racine sur lequel est installé `ATTENTION` ne pas supprimer le dossier `git`
 
@@ -60,4 +60,24 @@ La sauvegarde s'effectue ensuite avec la commande :
 $ git commit -m "first commit"
 ```
 Le dépot Git ou repository est le dossier qui contient les données que l'on souhaite versionner. On y trouve un dossier cache `.git/`
+
+```
+git log 
+```
+permet de voir l'historique des commits
+
+```
+cd
+```
+permet de changer de répertoire (si on laisse de base on revient juste dans le répertoire utilisateur)
+
+cd ```..``` pour revenir en arrière dans le répertoire
+
+git remote -v ça sert a check c'est quoi la valeur de tes remotes 
+
+git remote rm -v ==> ça suppr tout
+
+cat c'est une commande qui permet d'afficher le contenue d'un fichier dans le terminal
+
+"| clip" ça permet de copier le contenue d'un fichier
 
